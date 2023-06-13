@@ -15,6 +15,7 @@ fn main() -> eyre::Result<()> {
     handler::install()?;
     utils::subscriber();
     utils::enable_paint();
+    println!("howdyhowdyhowdy",);
 
     let opts = Opts::parse();
     match opts.sub {
